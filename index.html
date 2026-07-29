@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hello World — A First Principle</title>
+<meta name="description" content="A single-page hello world site. Twenty words, framed in silence. Say hello.">
+<link rel="canonical" href="https://hello-world-567b.sites.tibly.ai/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://hello-world-567b.sites.tibly.ai/">
+<meta property="og:site_name" content="Hello World">
+<meta property="og:title" content="Hello World — A First Principle">
+<meta property="og:description" content="A single-page hello world site. Twenty words, framed in silence. Say hello.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css?v=99cfbc12">
+</head>
+<body>
+<!-- block:header -->
+<header class="w-full bg-[#0D0D0D] text-ink border-b border-brand-700">
+  <div class="mx-auto max-w-3xl px-6 py-6 flex items-center justify-between">
+    <a href="#top" class="font-display text-sm tracking-[0.3em] uppercase text-ink">
+      <span data-tibly-field="business-name">Hello World</span>
+    </a>
+    <nav>
+      <a href="#top" class="font-body text-xs tracking-[0.2em] uppercase text-brand-400 hover:text-ink transition-colors duration-300">Top</a>
+    </nav>
+  </div>
+</header>
+<!-- /block:header -->
+<!-- block:type-hero -->
+<section id="top" class="relative w-full bg-[#0D0D0D] text-ink" data-block="type-hero">
+  <div class="mx-auto max-w-3xl px-6 py-32 md:py-48 flex items-center justify-center">
+    <div class="border border-brand-700 px-8 py-16 sm:px-16 sm:py-24 w-full flex flex-col items-center text-center gap-10">
+
+      <span class="font-body text-[10px] sm:text-xs tracking-[0.5em] uppercase text-brand-500">
+        Exhibit No. 01
+      </span>
+
+      <h1 class="font-display text-4xl sm:text-6xl md:text-8xl font-light tracking-tight leading-[0.95] text-ink">
+        Hello,<br class="sm:hidden" /> world.
+      </h1>
+
+      <p class="max-w-prose font-body text-sm sm:text-base leading-relaxed text-brand-300">
+        Every program begins with two words. This page begins with the same two, framed here in quiet, deliberate, empty space.
+      </p>
+
+      <a
+        href="mailto:hello@example.com"
+        class="btn mt-4"
+      >
+        Say hello
+      </a>
+
+    </div>
+  </div>
+</section>
+<!-- /block:type-hero -->
+<!-- block:footer -->
+<footer class="w-full bg-[#0D0D0D] text-ink border-t border-brand-700">
+  <div class="mx-auto max-w-3xl px-6 py-16 flex flex-col gap-10">
+    <div class="flex flex-col gap-2">
+      <span class="font-display text-lg tracking-[0.1em] uppercase" data-tibly-field="business-name">Hello World</span>
+      <span class="font-body text-xs tracking-[0.15em] uppercase text-brand-500">A single page, twenty words, one idea.</span>
+    </div>
+
+    <div class="flex flex-col gap-3 font-body text-sm text-brand-300">
+      <a href="tel:+15555550101" class="w-fit hover:text-ink transition-colors duration-300" data-tibly-field="phone">+1 (555) 555-0101</a>
+      <a href="mailto:hello@example.com" class="w-fit hover:text-ink transition-colors duration-300" data-tibly-field="email">hello@example.com</a>
+      <span data-tibly-field="address">14 Vacant Lot Lane, Unit A, Springfield</span>
+      <span data-tibly-field="hours">Mon to Fri, 9am to 5pm</span>
+    </div>
+
+    <nav class="flex flex-wrap gap-6 border-t border-brand-700 pt-6" data-tibly-field="links">
+      <a href="#top" class="font-body text-xs tracking-[0.2em] uppercase text-brand-400 hover:text-ink transition-colors duration-300">Top</a>
+    </nav>
+
+    <p class="font-body text-xs text-brand-600 tracking-[0.1em]">© 2024 <span data-tibly-field="business-name">Hello World</span>. All rights reserved.</p>
+  </div>
+</footer>
+<!-- /block:footer -->
+  <script async src="https://api.tibly.ai/widget/v1.js"></script>
+</body>
+</html>
